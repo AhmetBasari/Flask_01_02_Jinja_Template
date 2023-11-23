@@ -3,7 +3,7 @@ from flask import Flask, render_template
 app = Flask(__name__)
 @app.route("/")
 def head():
-    return render_template("index.html", number1="Mugla", number2="Omer")
+    return render_template("index.html", number1="Beek", number2="Bonk")
 
 @app.route("/cohort16")
 def number():
